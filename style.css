@@ -1,0 +1,169 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* GenerateOTP CSS */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, rgb(79, 200, 234), #2193b0);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerOTP {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  width: 350px;
+  text-align: center;
+}
+
+.containerOTP:hover{
+  transform: translateY(-5px);
+}
+
+.containerOTP h2 {
+  margin-bottom: 20px;
+  color: #2193b0;
+}
+
+button {
+  background-color: #2193b0;
+  color: #fff;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #176682;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.boxes .form-control {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #2193b0;
+  transition: border-color 0.3s ease;
+}
+
+.boxes .form-control:focus {
+  border-color: #176682;
+  outline: none;
+  box-shadow: 0 0 5px #2193b0;
+}
+
+#showOTP {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.alert-success,
+.alert-danger {
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* FormValidation CSS */
+
+.form-container {
+  width: 500px;
+  margin-left: 25rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.container {
+  max-width: 450px;
+  width: 100%;
+}
+
+/* Card Styling */
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Input and Label Styling */
+label.form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+input.form-control {
+  border-radius: 10px;
+  border: 2px solid #e0e0e0;
+  transition: border-color 0.3s;
+}
+
+input.form-control:focus {
+  border-color: #764ba2;
+  box-shadow: 0 0 0 4px rgba(118, 75, 162, 0.2);
+}
+
+/* Checkboxes */
+.form-check-input:checked {
+  background-color: #764ba2;
+  border-color: #764ba2;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #764ba2;
+  border-style: none;
+  font-weight: bold;
+  border-radius: 25px;
+  padding: 10px 25px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #5e3d92;
+}
+
+/* Generated Passw*
